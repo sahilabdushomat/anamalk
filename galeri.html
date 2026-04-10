@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri | Anam Aluminium & Kaca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Tambahan styling khusus halaman dalam */
+        .page-header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 4rem 20px;
+        }
+        .page-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .service-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo-area">
+            <div class="logo-icon"><img src="logo.jpeg"></div>
+            <div class="logo-text">Anam<br><span>Aluminium & Kaca</span></div>
+        </a>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan & Produk</a></li>
+                <li><a href="galeri.html" style="color: var(--accent-color);">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <h1>Galeri Proyek</h1>
+        <p>Inspirasi dari proyek aluminium dan kaca yang telah kami selesaikan</p>
+    </div>
+
+    <section class="section">
+        <div class="grid">
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Portofolio 1">
+                <div class="portfolio-overlay">
+                    <h3>Fasad Kaca Villa</h3>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Portofolio 2">
+                <div class="portfolio-overlay">
+                    <h3>Jendela Minimlis</h3>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://maps.app.goo.gl/hTu2BGMKRDGVQybx8">
+                <div class="portfolio-overlay">
+                    <h3>Pintu Geser Toko</h3>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Portofolio 4">
+                <div class="portfolio-overlay">
+                    <h3>Partisi Kaca Kantor</h3>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Portofolio 5">
+                <div class="portfolio-overlay">
+                    <h3>Kusen Aluminium Rumah</h3>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Portofolio 6">
+                <div class="portfolio-overlay">
+                    <h3>Kanopi Kaca Modern</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Anam Aluminium & Kaca. All rights reserved.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
